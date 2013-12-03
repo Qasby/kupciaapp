@@ -10,7 +10,7 @@
 	var bussys = new Array();
 	    $.ajax({
         type: "POST",
-        url: "http://localhost/zdmikp/generate.php",
+        url: "http://sob.xaa.pl/zurawcia/zdmikp/generate.php",
         dataType : 'json',
 		success : function(json)
 		{
